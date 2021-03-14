@@ -3,6 +3,6 @@
 Docker container description for static website build.
 
 **Includes:**
-* Node 12.x
+* Node 14.x
 * Ruby 2.5
 * Python 3
