@@ -30,7 +30,6 @@ RUN apt-get update \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
-RUN gem install rake bundler
 RUN pip3 install setuptools --upgrade \
  && pip3 install awscli --upgrade
 RUN mkdir -p /www
